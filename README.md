@@ -10,6 +10,8 @@ A locally stored server website to create and maintain notes for classes
 
 - [Features](#features)
 
+- [Mock-Up](#mock-up)
+
 - [Credits](#credits)
 
 - [License](#license)
@@ -45,6 +47,12 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 - User can create their own notes with a Title and Description
 - User can delete their notes individually
 - User's notes are stored in a db.json file and will not be removed when server goes down
+
+## Mock-Up
+
+The following GIF shows the web application's appearance and functionality:
+
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./public/assets/demo/11-express-homework-demo.gif)
 
 ## Credits
 - Edward Lawrence

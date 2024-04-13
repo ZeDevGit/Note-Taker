@@ -5,7 +5,7 @@ const readFileAsync = util.promisify(fs.readFile);
 const writeFileAsync = util.promisify(fs.writeFile);
 
 
-// This tool will be used to read, write, and delete notes
+// This tool will read, write, and delete notes from the db.json file
 class StorageTool {
     read() {
         return readFileAsync("db/db.json", "utf8");
